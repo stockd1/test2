@@ -1,0 +1,163 @@
+header {
+    background-color: #EAEAEA;
+    padding: 16px 0;
+}
+
+.headerContent, .iconsContainer {
+    display: flex; /* позволяет использовать гибкие св-ва для дочерних элементов */
+    align-items: center;
+}
+
+.iconsContainer {
+    gap: 10px;
+}
+
+.headerContent {
+    justify-content: space-between;
+}
+
+.ico {
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    background-color: #000;
+}
+
+.leftHeader {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    width: 44%;
+}
+
+.search {
+    all: unset;
+    background-color: #fff;
+    width: 100%;
+    padding: 3px 0 3px 16px;
+    border-radius: 6px;
+}
+
+.linksContainer {
+    display: flex;
+    gap: 19px;
+}
+
+.logo {
+    font-size: 36px;
+}
+.preview_block {
+    display: flex;
+    justify-content: space-between;
+    gap:167px;
+}
+.textBlock {
+    max-width: 680px;
+    display:flex;
+    flex-direction: column;
+    gap: 139px;
+}
+.text>h1{
+    font-size:32px;
+}
+.text>p{
+    font-size:24px;
+}
+.img{
+    width:100%;
+    height: auto;
+    background-color: gray;
+}
+
+.img2{
+    margin-top: 146px;
+    width:100%;
+    height: 471px;
+    background-color: gray;
+}
+
+.text2 {
+    margin-top: 16px;
+}
+.text2>h1{
+    font-size:32px;
+}
+.text2>p{
+    margin-top:34px;
+    font-size:24px;
+}
+.preview_block3{
+    display: flex;
+    justify-content: space-between;
+    gap:66px;
+}
+
+
+
+.img3{
+    margin-top: 117px;
+    width:100%;
+    height: 239px;
+    background-color: gray;
+}
+.text3{
+    margin-top:34px;
+
+}
+.text3>h1{
+    font-size:32px;
+}
+.text3>p{
+    font-size:24px;
+}
+
+.preview_block4{
+    display: flex;
+    justify-content: space-between;
+    gap:128px;
+}
+
+.img4{
+    margin-top:97px;
+    width:479px;
+    /* width:100%; */
+    /* height:507px; */
+    background-color: gray;
+}
+
+.text4{
+    margin-top: 81px;
+}
+
+.text4>h1{
+    font-size:32px;
+}
+.text4>p{
+    font-size:24px;
+}
+
+.text4{
+    margin-left:24px;
+    margin-right:72px;
+}
+
+.linkBtn {
+    background-color: #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 167px;
+}
+
+.linkBtn>a {
+    color: #fff;
+    padding: 13px 0;
+    font-size: 24px;
+}
+
+.img5{
+    margin-top:178px;
+    width:100%;
+    height:366px;
+    background-color:gray;
+}
